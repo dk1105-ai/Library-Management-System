@@ -1,21 +1,22 @@
 # 📚 Library Management System
 
-A modern desktop-based **Library Management System** built using **Python**, **CustomTkinter**, and **MySQL**. This application helps librarians efficiently manage books, issue and return records, and maintain the library database through a clean graphical interface.
+A modern desktop-based Library Management System built using Python, CustomTkinter, and MySQL.
+This project provides an intuitive GUI for managing books, issuing/returning records, and maintaining a structured library database efficiently.
 
 ---
 
 ## ✨ Features
 
-- 🔐 Secure Admin Login
-- 📚 Add New Books
-- 🔍 Search Books
-- ✏️ Update Book Information
-- ❌ Delete Books
-- 📖 Issue Books
-- 🔄 Return Books
-- 📊 Reports Module
-- 🗄️ MySQL Database Integration
-- 🎨 User-Friendly GUI with CustomTkinter
+🔐 Secure Admin Login System
+📚 Add New Books to Library
+🔍 Search Books by ID / Name
+✏️ Update Book Information
+❌ Delete Books with confirmation
+📖 Issue Books to Students
+🔄 Return Books Management
+📊 Reports & Records Module
+🗄️ MySQL Database Integration
+🎨 Clean and Responsive GUI using CustomTkinter
 
 ---
 
@@ -33,22 +34,36 @@ A modern desktop-based **Library Management System** built using **Python**, **C
 ## 📂 Project Structure
 
 ```text
-Library_Management_System
-│── main.py
-│── login.py
-│── dashboard.py
-│── database.py
-│── add_book.py
-│── delete_book.py
-│── issue_book.py
-│── return_book.py
-│── reservation.py
-│── reports.py
-│── search_book.py
-│── stack.py
-│── theme.py
-│── undo_delete.py
-│── images/
+Library_Management_System/
+│
+├── main.py
+├── login.py
+├── dashboard.py
+├── database.py
+├── add_book.py
+├── delete_book.py
+├── update_book.py
+├── search_book.py
+├── issue_book.py
+├── return_book.py
+├── reports.py
+├── reservation.py
+├── undo_delete.py
+├── theme.py
+├── stack.py
+│
+├── screenshots/
+│   ├── login.png
+│   ├── dashboard.png
+│   ├── add_book.png
+│   ├── search_book.png
+│   ├── update_book.png
+│   ├── delete_book.png
+│   ├── issue_book.png
+│   ├── return_book.png
+│   └── reports.png
+│
+└── README.md
 ```
 
 ---
@@ -101,12 +116,12 @@ Through this project I gained practical experience in:
 
 ## 🚀 Future Enhancements
 
-- 👥 Multi-user Login
-- 🔒 Password Hashing
-- 📄 Export Reports to PDF/Excel
-- 💰 Fine Calculation
-- 📅 Due Date Reminder
-- 📈 Dashboard Analytics
+👥 Multi-user Role System (Admin / Librarian)
+🔒 Password Hashing & Security Improvements
+📄 Export Reports (PDF / Excel)
+💰 Fine Calculation System
+📅 Due Date Reminder Notifications
+📊 Analytics Dashboard with Charts
 
 ---
 
