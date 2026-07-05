@@ -25,7 +25,7 @@ def start_dashboard():
         logo_label = ctk.CTkLabel(root, image=logo_img, text="")
         logo_label.pack(pady=(20, 5))
 
-    ctk.CTkLabel(root, text="Smart Library Control Panel", font=("Segoe UI", 22, "bold")).pack(pady=(5, 20))
+    ctk.CTkLabel(root, text="Library Management Dashboard", font=("Segoe UI", 22, "bold")).pack(pady=(5, 20))
 
     # Grid Container for uniform spacing layout
     btn_frame = ctk.CTkFrame(root, fg_color="transparent")
@@ -33,13 +33,13 @@ def start_dashboard():
 
     buttons = [
         ("Add New Book", open_add_book),
-        ("Delete System Book", open_delete_book),
-        ("Search Catalog", open_search_book),
-        ("Issue Book Asset", open_issue_book),
-        ("Return Book Asset", open_return_book),
+        ("Delete Book", open_delete_book),
+        ("Search Book", open_search_book),
+        ("Issue Book", open_issue_book),
+        ("Return Book", open_return_book),
         ("Manage Reservations", open_reservation),
-        ("Analytics Reports", open_reports),
-        ("Undo Delete Action", open_undo_delete)
+        ("Reports", open_reports),
+        ("Restore Deleted Book", open_undo_delete)
     ]
 
     for idx, (text, cmd) in enumerate(buttons):
