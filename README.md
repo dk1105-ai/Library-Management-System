@@ -42,7 +42,6 @@ Library_Management_System/
 ├── database.py
 ├── add_book.py
 ├── delete_book.py
-├── update_book.py
 ├── search_book.py
 ├── issue_book.py
 ├── return_book.py
@@ -57,7 +56,8 @@ Library_Management_System/
 │   ├── dashboard.png
 │   ├── add_book.png
 │   ├── search_book.png
-│   ├── update_book.png
+│   ├── reservation_book.png
+│   ├── undo_delete_book.png
 │   ├── delete_book.png
 │   ├── issue_book.png
 │   ├── return_book.png
