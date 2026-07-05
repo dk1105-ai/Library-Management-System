@@ -3,7 +3,7 @@
 A modern desktop-based Library Management System built using Python, CustomTkinter, and MySQL.
 This project provides an intuitive GUI for managing books, issuing/returning records, and maintaining a structured library database efficiently.
 
----
+----
 
 ## ✨ Features
 
